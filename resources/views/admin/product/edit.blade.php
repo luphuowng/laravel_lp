@@ -11,7 +11,7 @@
             <input id="pro_name" class="form-control" type="text" value="{{ $pro->pro_name }}" name="pro_name">
         </div>
         <div class="form-group">
-            <label for="cat_id">Loại sản phẩm</label>
+            <label for="cat_id">Loại sản phẩm 111111</label>
             <select name="Cat_ID" class="form-control">
                 @foreach ($cat as $item)
                     <option value="{{ $item->cat_id }}" {{ $pro->cat_id == $item->cat_id ? 'selected' : '' }}>{{ $item->cat_name }}</option>
